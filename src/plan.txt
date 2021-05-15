@@ -1,0 +1,39 @@
+A simple CRUD application
+
+-Create
+  1) The user clicks a button
+    i) present the form
+      - <form>
+      - <input>
+      - <button>
+  2) Fill out the form
+    i) controlled inputs
+      - state, onChange, value
+  3) Submit information
+    i) store information
+      - state (App)
+      - list (array)
+
+
+
+-Read
+  Already done for me every time I perform [create, update, delete] because I change local state
+
+
+
+-Update
+  1) Click a button
+    i) change the text to a text-box
+      - use state to control render of <p> vs <input>
+  2) Replace information
+    i) controlled inputs
+      - state, onChange, value
+  3) Submit new information
+    i) find specific item in list
+    ii) replace with user input
+
+
+
+-Delete
+  1) Click a button
+  2) Filter out the bugs list using the id of the bug clicked
